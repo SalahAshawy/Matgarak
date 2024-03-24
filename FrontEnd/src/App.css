@@ -1,0 +1,270 @@
+/* Navbar  */
+html,body {
+  background: #2C4044;
+}
+.navbar-nav a{
+    font-size:18px;
+}
+.recommended{
+  width: 10px;
+}
+.ssss{
+position:relative;
+   top:40px;
+}
+.pta{
+    font-family :sans-serif;
+    font-size:14px;
+    color :#888;
+    font-weight: 600;
+    padding:5px;
+  
+  }
+  .aa{
+    font-size:12px;
+    color :lightblue;
+  }
+  .contacts{
+    background-color: rgb(14, 15, 15);
+   
+  }
+  .container-mee{
+      align-items: center;
+    /* color:#888; */
+   text-align:center;
+   
+  }
+  .aha{
+    display:inline;
+    padding-right:23px;
+  }
+  .gmaili{
+    color:#888;
+  padding-top:23px;
+  }
+
+ 
+.card.bg-d7k{
+  background-color: #384B4E;
+}
+.btn.bg-custom1{
+  background-color: #D7CABB;
+}
+.card.bg-custom{
+  background: #2C4044;
+  height: 220px;
+  width:220px;
+  margin: '0 10px' ;
+  overflow: hidden;
+}
+.card-text.text-custom{
+  color:#D7CABB;
+
+}
+.card-title.text-custom{
+  color:#D7CABB;
+}
+.card-link{
+  text-decoration: none;
+}
+.btn.btn-outline-danger.del-custom{
+margin-bottom: 5px;
+
+}
+.btn.bg-custom-buy{
+  background-color: #D7CABB;
+  height: 30px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+font-size: 10px;
+margin:8px ;
+margin-left: 45px;
+}
+.btn.bg-custom-buy.cart{
+  background-color: #D7CABB;
+  height: 30px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+font-size: 10px;
+margin-left: 4px;
+}
+
+ .container.custom{
+ width: 600px;
+ /* margin-right: 400px; */
+ padding-right: 80px;
+} 
+.card.custom{
+  width: 150px;
+  height: 170px;
+}
+.card.custom2.bg-custom{
+  width: 160px;
+  height: 240px;
+}
+.card-title.text-custom{
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+.card-text.custom{
+  color: #bdb6b6;
+}
+.btn.btn-dark.custom-active{ 
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+font-size: 10px;
+margin: 1px;
+background: rgb(168, 162, 162); 
+}
+.btn.btn-dark.custom{ 
+  height: 30px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+font-size: 10px;
+margin: 1px;
+
+}
+.nav-link.custom-seacrh{
+font-size: 20px;
+
+}
+.fa-search {
+  content: "\f002";
+  font-size: 24px;
+  margin-left: 37px;
+}
+
+@media (max-width: 768px) {
+  .col.custom{
+    margin: -11px;
+  }
+  .container.custom {
+    width: 386px; /* Adjust this value as needed */
+   padding: 0 10px; /* Adjust this value as needed */
+  }
+  .card.custom{
+    width: 100px;
+    height: 110px;
+    
+  }
+  
+  .btn.bg-custom1{
+    background-color: #D7CABB;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  font-size: 10px;
+  }
+  .btn.bg-custom-buy{
+    background-color: #D7CABB;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  font-size: 10px;
+  margin-left: 67px;
+  }
+  .fa-search {
+    content: "\f002";
+    font-size: 24px;
+    margin-left: 4px;
+  }
+  
+  .btn.bg-custom-buy.cart{
+    background-color: #D7CABB;
+    height: 30px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  font-size: 10px;
+  margin-left: 3px;
+  }
+  .container.custom{
+    width: 314px;
+   /* margin-right: 40px;  */
+    padding-right: 80px;
+   }
+   .recommended{
+    font-size: 10px;
+    margin-left: 40px;
+  }
+  .text-center{
+    font-size: 18px;
+    margin-right: 23px;
+  }
+   .card.custom{
+    width: 80px;
+    height: 100px;
+    
+  }
+  .col.custom-more{
+    margin: -11px;
+    flex: 1 0;
+
+  }
+  .buttons.custom {
+    width: 80%;
+    margin:  0 auto;
+   }
+   .btn.btn-dark.custom{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  font-size: 10px;
+  margin: 1px;
+
+   } 
+   .btn.btn-dark.custom-active{ 
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  font-size: 10px;
+  margin: 1px;
+  background: rgb(168, 162, 162);
+  }
+   .card.custom2{
+    width: 260px;
+    height: 200px;
+  }
+  .btn.btn-outline-danger.del-custom{
+    width: 110px;
+    font-size: 10px;
+    } 
+     .btn.btn-dark.custom-submit{
+     
+      height: 30px;
+      width: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+    font-size: 10px;
+    margin: 1px;
+    }
+.form-control.text-area-custom{
+  height: 20px;
+  width: 250px;
+}
+.form-label{
+  font-size: 12px;
+}
+    
+  }
+
