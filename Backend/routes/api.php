@@ -32,12 +32,3 @@ Route::middleware(['auth:sanctum'])->group(function(){
     Route::get('/popular-products', [ProductsController::class, 'popularProducts']);    
     Route::get('/more-products', [ProductsController::class, 'showMoreProducts']);    
 });
-Route::get('/products', [ProductsController::class, 'index']);
-Route::resource('products',ProductsController::class);
-// Route::resource('products',ProductsController::class);
-    // Route::resource('comments',CommentController::class);
-    Route::resource('comments',CommentController::class);
-    Route::get('/latest-products', [ProductsController::class, 'latestProducts']);
-    Route::get('/recommended-products', [ProductsController::class, 'recommendedProducts']);    
-    Route::get('/popular-products', [ProductsController::class, 'popularProducts']);    
-    Route::get('/more-products', [ProductsController::class, 'showMoreProducts']);  
